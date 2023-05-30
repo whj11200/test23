@@ -1,0 +1,228 @@
+#new{
+    width: 50%;
+    background-color: rgb(195, 211, 206);
+    text-align: center;
+    margin-left: 25%;
+    margin-top: 5%;
+    border-radius: 50px;
+}
+#bar{
+    position: absolute;
+    top: 30%;
+    left: 9%;
+}
+#bar2{
+    position: absolute;
+    top: 48%;
+    left: 9%;
+}
+#googi
+{
+    color: red;
+    font-size: 20px;
+    position: absolute;
+    left: 10%;
+    top: 35.5%;
+}
+#googi2
+{
+    color: red;
+    font-size: 20px;
+    position: absolute;
+    left: 10%;
+    top: 53%;
+}
+#imgimg{
+    width: 8%;
+    height: 12%;
+    position: absolute;
+    top: 31%;
+    left: 15%;
+}
+#imgimg2{
+    width: 8%;
+    height: 12%;
+    position: absolute;
+    top: 49%;
+    left: 15%;
+}
+#button1{
+    width: 5%;
+    height: 3%;
+    position: absolute;
+    border-radius: 50px;
+    color: rgb(2, 1, 2);
+    background-color: rgba(33, 88, 67, 0);
+    border: solid 2px rgb(255, 255, 255);
+    top: 40%;
+    left: 30%;
+}
+#button1:hover {
+    background-color: rgb(5, 253, 158); /* 호버 시 배경색 변경 */
+    color: aliceblue;
+}
+#button2{
+    width: 5%;
+    height: 3%;
+    position: absolute;
+    border-radius: 50px;
+    color: rgb(2, 1, 2);
+    background-color: rgba(33, 88, 67, 0);
+    border: solid 2px rgb(255, 255, 255);
+    top: 40%;
+    left: 38%;
+}
+#button3{
+    width: 5%;
+    height: 3%;
+    position: absolute;
+    border-radius: 50px;
+    color: rgb(2, 1, 2);
+    background-color: rgba(33, 88, 67, 0);
+    border: solid 2px rgb(255, 255, 255);
+    top: 57%;
+    left: 30%;
+}
+#button4{
+    width: 5%;
+    height: 3%;
+    position: absolute;
+    border-radius: 50px;
+    color: rgb(2, 1, 2);
+    background-color: rgba(33, 88, 67, 0);
+    border: solid 2px rgb(255, 255, 255);
+    top: 57%;
+    left: 38%;
+}
+#button3:hover {
+    background-color: rgb(5, 253, 158); /* 호버 시 배경색 변경 */
+    color: aliceblue;
+}
+#button4:hover {
+    background-color: rgb(5, 253, 158); /* 호버 시 배경색 변경 */
+    color: aliceblue;
+}
+#button2:hover {
+    background-color: rgb(5, 253, 158); /* 호버 시 배경색 변경 */
+    color: aliceblue;
+}
+#index{
+    position: absolute;
+    left: 30%;
+    top: 31%;
+}
+#index2{
+    position: absolute;
+    left: 30%;
+    top: 49%;
+}
+
+@media (max-width: 412px){
+    #bar{
+        width: 90%;
+        height: 10%;
+        top: 20%;
+        left: 5.5%;
+    }
+    #bar2{
+        position: absolute;
+        top: 35%;
+        left: 5.5%;
+        width: 90%;
+        height: 10%;
+    }
+#googi
+{
+    position: absolute;
+    left: 7%;
+    top: 24%;
+    font-size: 15px;
+}
+#googi2
+{
+    position: absolute;
+    left: 7%;
+    top: 39%;
+    font-size: 15px;
+}
+
+#imgimg{
+    width: 22%;
+    height: 9%;
+    position: absolute;
+    top: 20.5%;
+    left: 19%;
+}
+#imgimg2{
+    width: 22%;
+    height: 9%;
+    position: absolute;
+    top: 35%;
+    left: 19%;
+}
+#index{
+    position: absolute;
+    left: 45%;
+    top: 21%;
+    font-size: 15px;
+}
+#index2{
+    position: absolute;
+    left: 47%;
+    top: 36%;
+    font-size: 15px;
+}
+#button1{
+    width: 20%;
+    height: 3%;
+    position: absolute;
+    border-radius: 50px;
+    color: rgb(2, 1, 2);
+    background-color: rgba(33, 88, 67, 0);
+    border: solid 2px rgb(255, 255, 255);
+    top: 26%;
+    left: 42%;;
+}
+#button3{
+    width: 20%;
+    height: 3%;
+    position: absolute;
+    border-radius: 50px;
+    color: rgb(2, 1, 2);
+    background-color: rgba(33, 88, 67, 0);
+    border: solid 2px rgb(255, 255, 255);
+    top: 41%;
+    left: 42%;;
+}
+#button2{
+    width: 20%;
+    height: 3%;
+    position: absolute;
+    border-radius: 50px;
+    color: rgb(2, 1, 2);
+    background-color: rgba(33, 88, 67, 0);
+    border: solid 2px rgb(255, 255, 255);
+    top: 26%;
+    left: 65%;;
+}
+#button4{
+    width: 20%;
+    height: 3%;
+    position: absolute;
+    border-radius: 50px;
+    color: rgb(2, 1, 2);
+    background-color: rgba(33, 88, 67, 0);
+    border: solid 2px rgb(255, 255, 255);
+    top: 41%;
+    left: 65%;;
+}
+#button2:hover {
+    background-color: rgb(5, 253, 158); /* 호버 시 배경색 변경 */
+    color: aliceblue;
+}
+#button1:hover {
+    background-color: rgb(5, 253, 158); /* 호버 시 배경색 변경 */
+    color: aliceblue;
+}
+
+}
